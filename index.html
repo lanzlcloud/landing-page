@@ -1,10 +1,31 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>Lanzl Cloud Services</title>
-   </head>
-   <body>
-      <h1>Lanzl Cloud Services</h1>
-      <p>contact: customer@lanzl.cloud</p>
-   </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lanzl Cloud Services</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: url('bg.png') no-repeat center center fixed;
+      background-size: auto; /* Keep image at original size */
+      font-family: sans-serif;
+    }
+
+    .overlay-text {
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 1rem; /* Adjust size as needed */
+      color: white;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Optional for better readability */
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay-text">contact: customer@lanzl.cloud</div>
+</body>
 </html>
